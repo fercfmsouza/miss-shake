@@ -1,0 +1,71 @@
+.paymentWrapper {
+  padding-top: 40px;
+  flex: 2;
+}
+
+.paymentWrapper h4 {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cardName {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+}
+
+.cardName::placeholder {
+  color: #d9d9d9;
+}
+
+.cardInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.cardInfo input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+}
+
+.cardInfo label {
+  font-size: 12px;
+}
+
+.cardInfo select {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+}
+
+.cardInfoNumber,
+.cardInfoDate {
+  width: 100%;
+}
+
+.selectOption {
+  display: flex;
+  gap: 20px;
+}
+
+.selectOption select {
+  width: 100%;
+}

@@ -1,0 +1,96 @@
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.linkContainer {
+  position: relative;
+}
+
+.button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: var(--bg-pink);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.loginBox {
+  position: absolute;
+  right: -130px;
+  width: 350px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loginButton {
+  padding: 20px;
+  background-color: var(--bg-pink);
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: var(--color-black);
+}
+
+.loginButton:hover {
+  background-color: var(--color-pink);
+  color: #fff;
+}
+
+.registerButton {
+  background-color: transparent;
+  border: none;
+  color: var(--color-pink);
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  color: var(--bg-pink);
+}
+
+.favoriteCount {
+  position: absolute;
+  top: 50px;
+  right: 160px;
+  background-color: var(--color-pink);
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.cartItems {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background-color: var(--color-pink);
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}

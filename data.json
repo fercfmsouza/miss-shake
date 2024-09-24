@@ -1,0 +1,56 @@
+[
+  {
+    "id": "a1",
+    "imageUrl": "milkshake-1.png",
+    "name": "Vanilla Milkshake",
+    "price": "$ 40"
+  },
+  {
+    "id": "a2",
+    "imageUrl": "milkshake-2.png",
+    "name": "Caramel Milkshake",
+    "price": "$ 43"
+  },
+  {
+    "id": "a3",
+    "imageUrl": "milkshake-3.png",
+    "name": "Chocolate Milkshake",
+    "price": "$ 45"
+  },
+  {
+    "id": "a4",
+    "imageUrl": "milkshake-4.png",
+    "name": "Fruit Milkshake",
+    "price": "$ 43"
+  },
+  {
+    "id": "a5",
+    "imageUrl": "milkshake-5.png",
+    "name": "Healthy Milkshake",
+    "price": "$ 50"
+  },
+  {
+    "id": "a6",
+    "imageUrl": "milkshake-6.png",
+    "name": "Strawberry Milkshake",
+    "price": "$ 35"
+  },
+  {
+    "id": "a7",
+    "imageUrl": "milkshake-7.png",
+    "name": "Cookies Milkshake",
+    "price": "$ 50"
+  },
+  {
+    "id": "a8",
+    "imageUrl": "milkshake-8.png",
+    "name": "Coffee Milkshake",
+    "price": "$ 50"
+  },
+  {
+    "id": "a9",
+    "imageUrl": "milkshake-9.png",
+    "name": "Tutti frutti Milkshake",
+    "price": "$ 30"
+  }
+]

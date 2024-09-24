@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+
+  margin: 0 6rem;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.bestSeller {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  gap: 24px;
+  width: 20%;
+}
+
+.bestSeller h2 {
+  font-size: 32px;
+}
+
+.bestSeller p {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.bestSeller a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--bg-pink);
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.bestSeller a:hover {
+  background-color: var(--color-pink);
+  color: #fff;
+}
+
+.iconImage svg:hover {
+  fill: #fff;
+}

@@ -1,0 +1,18 @@
+.checkoutWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6rem 6rem 6rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.infoContent {
+  flex: 2;
+}
+
+.orderContent {
+  flex: 1;
+}

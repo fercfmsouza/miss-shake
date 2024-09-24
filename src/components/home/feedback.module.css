@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 6rem 12rem 6rem;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 32px;
+  width: 40%;
+}
+
+.feedbackCards {
+  display: flex;
+  gap: 40px;
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Change the color of the navigation arrows if needed */
+}

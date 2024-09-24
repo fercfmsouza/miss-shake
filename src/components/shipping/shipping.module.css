@@ -1,0 +1,43 @@
+.shippingWrapper {
+  padding: 40px 0;
+  flex: 2;
+}
+
+.shippingWrapper h4 {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.shippingForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.shippingForm input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.labelWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.shippingForm input::placeholder {
+  color: #d9d9d9;
+}
+
+.info {
+  width: 100%;
+  padding-bottom: 20px;
+}

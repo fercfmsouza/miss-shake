@@ -1,0 +1,45 @@
+.cardContainer {
+  background: var(--bg-pink);
+  border-radius: 12px;
+  padding: 48px 48px 0 48px;
+  width: 800px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cardContainer h2 {
+  font-size: 32px;
+  width: 40%;
+}
+
+.info {
+  display: flex;
+}
+
+.quote {
+  height: 143px;
+  position: relative;
+}
+
+.userInfo {
+  margin-left: 120px;
+}
+
+.userGrade {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 150px;
+}
+
+.quoteIcon {
+  position: absolute;
+}
+
+.quoteUser {
+  position: absolute;
+  left: 10px;
+}

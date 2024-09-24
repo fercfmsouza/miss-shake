@@ -1,0 +1,100 @@
+.cartBox {
+  position: absolute;
+  z-index: 10;
+  right: 96px;
+  width: auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cartBox h2 {
+  font-size: 16px;
+}
+
+.cartBox h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.cartBoxContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.cartBoxContent p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cartBoxTotal {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cartBoxButtons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cartBoxButtons button {
+  background-color: var(--bg-pink);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checkoutButton {
+  background-color: var(--bg-pink);
+  color: var(--color-black);
+  border: none;
+  border-radius: 4px;
+  padding: 6px 40px;
+  height: 40px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.checkoutButton:hover {
+  background-color: var(--color-pink);
+  color: #fff;
+}
+
+.totalTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.totalPrice {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.totalItems {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.iconTrash:hover {
+  filter: invert(52%) sepia(74%) saturate(365%) hue-rotate(290deg) brightness(90%) contrast(86%);
+}

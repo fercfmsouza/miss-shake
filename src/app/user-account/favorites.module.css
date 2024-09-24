@@ -1,0 +1,12 @@
+.favorites {
+  display: flex;
+}
+
+.favoriteItem {
+  width: 150px;
+  height: 150px;
+}
+
+.favoriteItem h2 {
+  font-size: 12px;
+}

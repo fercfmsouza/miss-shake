@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  color: var(--color-gray);
+}
+
+.link:hover {
+  color: var(--color-black);
+}
+
+.active {
+  color: var(--color-black);
+}

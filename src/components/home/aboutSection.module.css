@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 6rem;
+}
+
+.container h2 {
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  color: var(--color-gray);
+  margin-bottom: 48px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-pink);
+  border-radius: 50%;
+  padding: 28px;
+}
